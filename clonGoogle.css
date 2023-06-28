@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    /*font-family: 'Wix Madefor Display', sans-serif;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2vh;
+    color: rgb(72, 71, 71);
+}
+
+header img{
+    width: 1.2vw;
+    padding-right: 1.7%;
+}
+
+header p{
+    padding-right: 1.5%;
+}
+
+#perfil{ 
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0.9%;
+    background-color: rgb(85, 20, 160);
+    color: white;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid white;
+}
+#perfil:hover{
+    border: 3px solid rgb(219, 217, 217);
+    height: 5.6px;
+    width: 5.6px;
+    border-radius: 50%
+}
+
+section{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    width: 19%;
+    justify-content: center;
+    margin-top: 7%;
+    margin-bottom: 2.7%;
+}
+
+#searchbar{
+    width: 38%;
+    height: 2%;
+    background-color: white;
+    color: grey;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0.5px 7px;
+    border-radius: 50px;
+    padding: 0.8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+}
+
+nav img{
+    width: 3.8%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+input{
+    border: none;
+    font-size: small;
+    width: 90%;
+    margin-left: 1%;
+}
